@@ -1,0 +1,179 @@
+
+.combo{
+	padding: 5px;
+}
+.cabecera{
+	background-color: #343a40;
+	color:white;
+	padding: 25px !important;
+}
+.foot{
+	background-color: #343a40;
+	color:white;
+	padding-top:  25px;
+	padding-bottom:  15px;
+	text-align: center;
+}
+.pagination{
+	text-align: center;
+	display:inline-block;
+}
+.pag{
+	padding-top:15px;
+}
+a {
+    text-decoration: none !important;
+}
+
+.box{
+	border: 1px #5594db solid;
+	margin: 15px !important;
+}
+
+.box2{
+	/*border: 1px #5594db solid;*/
+	/*margin: 15px !important;*/
+	padding: 15px !important;
+}
+.box3{
+	background-color: #343a40;
+	padding-left: 15px !important;
+
+	color: white;
+}
+.box4{
+	border: 1px black solid;
+	/*margin: 15px !important;*/
+	padding: 15px !important;
+}
+
+.log-register{
+	font-size: 20px;
+	color:white;
+}
+
+.panel-heading{
+	background-color: #337ab7 !important;
+	color:white !important;	
+	font-size: 20px !important;
+}
+
+/**********************************/
+.imagen{
+	float:left;
+}
+.nom-desc{
+	padding:10px;
+	float:left;
+	width:320px;
+	height:163px;
+
+/*	border:1px solid;
+	border-color rgb(192,192,192);
+	background-color:#ADD8E6;*/
+}
+
+.formulario{
+	padding:10px;
+	float:left;
+	width:120px;
+	height:163px;
+
+/*	border:1px solid;
+	border-color rgb(192,192,192);
+	background-color:#1E90FF;*/
+}
+
+.separa{
+	clear:both;
+}
+
+.notlog{
+	color:#ff0000;
+}
+
+.log{
+	color:#00ff00;
+}
+
+table.confirm{     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+           text-align: left;    border-collapse: collapse; }
+
+table.confirm th{       font-weight: normal;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+table.confirm td{    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+table.confirm tr :hover td { background: #d0dafd; color: #339; }
+
+/******************************************************************************/
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+	.banner{
+		height:260px;
+	}
+
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.banner{
+		height:260px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	.banner{
+		height:180px;
+	}
+
+	.textoBanner h1{
+		font-size:30px;
+		line-height:15px;
+	}
+
+	.textoBanner h2{
+		font-size:25px;
+		line-height:15px;
+	}
+
+	.textoBanner h3{
+		font-size:25px;
+		line-height:15px;
+	}
+
+	.banner .textoDer, .banner .textoIzq, .banner .textoCentro{
+		top:35px; 
+	}
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+	.imglibro {
+		/*top:35px !important;*/
+		padding-top: 35px !important;
+	}
+}
+
